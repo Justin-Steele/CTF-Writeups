@@ -1,7 +1,7 @@
 # Mod 26
-**picoGym - original date unknown**
-**Category: Cryptography**
-**Points: 10**
+- **picoGym - original date unknown**
+- **Category: Cryptography**
+- **Points: 10**
 
 ## Challenge Description:
 Cryptography can be easy, do you know what ROT13 is? 
