@@ -1,14 +1,13 @@
-# picoCTF
-## picoGym (original date unknown)
-
 # Mod 26
-### Cryptography
-### 10 points
+**picoGym - original date unknown**
+**Category: Cryptography**
+**Points: 10**
+
 ## Challenge Description:
 Cryptography can be easy, do you know what ROT13 is? 
 ```cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_GYpXOHqX}```
 
-# Solution Steps
+## Solution Steps
 The name and description both point towards this being a ROT13 cipher, which is where letters from plaintext are shifted 13 spaces (e.g. A->N, B->O, C->P). We are given the ciphertext, so we just need to shift them back.
 It would be easy enough to throw this in a rot13 calculator online, but for the sake of the competition, let's write something up in python:
 
